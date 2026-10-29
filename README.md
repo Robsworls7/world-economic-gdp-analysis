@@ -22,15 +22,12 @@
 | **H1 Income level** | Median gap by income quartile; correlation of log income with the gap | Poorest quartile +182%, then +166%, +126%, richest +34%. Correlation -0.67, R-squared 0.455 | **Supported.** Main driver. |
 | **H2 Fuel exporter** | Median gap, then repeated within each income quartile | +134% vs +126% overall; no consistent pattern within quartiles | **Not a driver** |
 | **H3 EU membership** | Median gap, then repeated within each income quartile | Looks lower overall (+68% vs +136%), but within Q3 and Q4 EU members are *higher* (+142% vs +114%, +52% vs +34%) | **Rejected.** The raw difference is an income effect. |
-| **H4 IMF class** | Median gap by class | Advanced +54%, Emerging +162% | Same as H1: class is a proxy for income |
 
 **Cause vs correlation:** EU membership appears linked to a low gap only because EU members are rich. Comparing countries *within the same income quartile* removes this confounder, and the EU effect disappears.
 
 **Exceptions:** Countries with income above $15,000 and a gap above 60% (for example Poland, Hungary, Romania, Saudi Arabia, Bahrain, Russia) are not explained by income.
 
 **Root cause:** The PPP gap is mainly a **price-level effect linked to income**. Lower-income countries have cheaper local goods and services. Income explains about 45% of the variation. Fuel exports and EU membership add almost nothing once income is controlled.
-
-**Not explained:** About half of the variation. The dataset has no price, wage, or exchange-rate data. A next step is to join World Bank price level data.
 
 **Recommendation:** Use PPP to judge local-cost and price-sensitive markets, and nominal GDP to judge import value and revenue in dollars. Do not read a high PPP as high demand in dollars.
 
